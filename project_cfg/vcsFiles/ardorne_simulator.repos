@@ -1,0 +1,9 @@
+repositories:
+  ardrone_autonomy:
+    type: git
+    url: https://github.com/AutonomyLab/ardrone_autonomy.git
+    version: indigo-devel
+  tum_simulator:
+    type: git
+    url: https://github.com/Jul-Hub/tum_simulator.git
+    version: tr-11Lab
