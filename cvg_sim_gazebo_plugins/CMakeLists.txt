@@ -94,7 +94,7 @@ catkin_package(
   hector_gazebo_ros_baro 
   hector_gazebo_quadrotor_simple_controller hector_gazebo_quadrotor_state_controller
  CATKIN_DEPENDS image_transport cvg_sim_msgs
- DEPENDS system_lib
+# DEPENDS system_lib
 )
 
 ###########

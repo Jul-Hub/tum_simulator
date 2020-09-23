@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <model name="lab_floor">
+    <static>1</static>
+    <link name="link_lab_floor">
+      <gravity>false</gravity>
+      <visual name="visual_lab_floor">
+        <geometry>
+          <box>
+            <size>4.4 8.4 0.001</size>
+            <!-- SIZE OF THE OBJECT -->
+          </box>
+        </geometry>
+        <material>
+          <script>
+	    <uri>model://lab_floor/material/scripts</uri>
+	    <uri>model://lab_floor/material/textures</uri>
+            <name>lab_floor</name>
+          </script>
+        </material>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>4.4 8.4 0.001</size>
+            <!-- SIZE OF THE OBJECT -->
+          </box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

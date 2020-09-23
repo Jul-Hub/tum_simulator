@@ -1,0 +1,14 @@
+material lab_floor
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture lab_floor.png
+			}
+		}
+	}
+}
+
