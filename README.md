@@ -36,4 +36,5 @@ Import the repos
 
 Inside the workspace folder run:
 
+    rosdep install --from-paths src -i
     catkin build
