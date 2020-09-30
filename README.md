@@ -19,12 +19,12 @@ In order to simulate the parrot arDrone in the lab environment follow the next i
 ### Ros packages (Maybe not complete)
 Install ros packages
 
-    sudo apt-get install ros-kinetic-hector-*
+    sudo apt-get install ros-kinetic-hector-* ros-kinetic-robot-state-publisher 
 
 
 ### Get the repos:
 
-Get the vcs repo file:
+Get the vcs repo file that will download the proper ardrone_autonomy and tum_simulator packages:
 
     wget https://raw.githubusercontent.com/Jul-Hub/tum_simulator/tr-11Lab/project_cfg/vcsFiles/ardrone_simulator.repos
 
